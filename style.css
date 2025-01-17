@@ -1,0 +1,107 @@
+*{
+margin: 0;
+}
+body{
+background:rgba(56, 56, 56, 0.99);
+}
+
+#title{
+background-color: rgba(0, 85, 109, 0.99);
+color:#fff;
+}
+
+
+
+#title{
+font-family: Calibri;
+margin: 0;
+text-align: center;
+padding:20px;
+margin-bottom: 20px;
+}
+
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.box1 {
+width: 70%;
+color: white;
+margin: 10px;
+display: flex;
+justify-content: center;
+}
+
+label{
+font-family: Arial;
+font-size: 20px;
+display: flex;
+align-items: center;
+margin-right: 10px;
+color:white;
+}
+#usn{
+padding-left: 10px;
+height: 30px;
+outline: none;
+width: 30%;
+font-family: Arial;
+font-size: 17px;
+
+}
+
+#num{
+width: 10%;
+outline: none;
+margin-right: 10px;
+}
+button{
+height: auto;
+cursor: pointer;
+height: 40px;
+font-family: Arial;
+background: rgba(0, 226, 255, 1);
+border:0;
+border-radius: 3px;
+font-weight: bold;
+
+}
+
+button:hover{
+background:rgba(0, 183, 207, 0.61);
+color:#000;
+font-weight: bold;
+}
+
+#resultados{
+width: 70%;
+font-family: Calibri;
+font-size: 20px;
+color: white;
+padding: 20px;
+margin: 10px;
+border-radius: 5px;
+height: auto;
+
+
+}
+
+#not-found{
+font-family: Calibri;
+color:gray;
+}
+
+#resx{
+margin-top: 4px;
+cursor: pointer;
+}
+
+#resx:hover{
+
+color:rgba(0, 226, 255, 1);
+}
+
